@@ -8,7 +8,7 @@ export default function Search() {
     const [resData, setResData] = useState([]);
     const [search, setSearch] = useState("");
 
-    const tokenGithub = "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";
+    const tokenGithub = "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";
     const notifyError = (message) =>
         toast(<p style={{ fontSize: 16 }}>{message}</p>, {
             position: "top-right",

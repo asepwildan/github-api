@@ -7,7 +7,7 @@ export default function UserDetail() {
     const location = useLocation();
     const [repoData, setRepoData] = useState([]);
     const [loading, setLoading] = useState(false);
-    const tokenGithub = "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";
+    const tokenGithub = "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";
     useEffect(() => {
         setLoading(true);
         axios
